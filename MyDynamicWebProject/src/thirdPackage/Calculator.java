@@ -29,10 +29,10 @@ public class Calculator implements thirdPackageInterface {
 		@SuppressWarnings("resource")
 		Scanner input = new Scanner( System.in );
 		
-		System.out.println("Enter first number");
+		System.out.println("Enter your first number");
 		val1 = input.nextInt();
 		
-		System.out.println("Enter second number");
+		System.out.println("Enter your second number");
 		val2 = input.nextInt();
 
 		System.out.println("Enter choice :\n 1 : addition \n 2 : Subtraction \n 3 : Multiply \n 4 : Divide \n");
